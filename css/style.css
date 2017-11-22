@@ -1,1 +1,37 @@
-.card{width:500px;position:relative;margin:auto;padding:20px 30px;display:table;margin:7% auto auto auto;border-radius:1px}.buttons{outline:none;margin:5% auto auto auto;padding:8px}.buttons #quote-button{float:right;color:white;cursor:pointer}.buttons #tweet{color:white}
+.card {
+  width: 500px;
+  position: relative;
+  margin: auto;
+  padding: 20px 30px;
+  display: table;
+  margin: 7% auto auto auto;
+  border-radius: 1px;
+  background-color:white !important;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-body {
+    padding: 2px 16px;
+}
+
+.buttons {
+  outline: none;
+  margin: 5% auto auto auto;
+  padding: 8px
+}
+
+.buttons #quote-button {
+  float: right;
+  color: white;
+  cursor: pointer
+}
+
+.buttons #tweet {
+  color: white;
+  cursor: pointer;
+}
